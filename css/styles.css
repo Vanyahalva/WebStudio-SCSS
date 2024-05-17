@@ -31,88 +31,6 @@
     .logo {
     font-family: "Raleway", sans-serif;
     }
-    .studio-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: flex-start;
-    }
-
-    .studio-item {
-        flex: 1 0 300px;
-        margin: 10px;
-        padding: 20px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        background-color: #f9f9f9;
-    }
-    .header_main {
-        font-family: "Arial", sans-serif;
-        font-size: 24px;
-        font-weight: bold;
-    }
-    
-    .footer_main {
-        font-family: "Arial", sans-serif;
-        font-size: 16px;
-    }
-    
-    .main_home {
-        font-family: "Times New Roman", serif;
-        font-size: 18px;
-        line-height: 1.5;
-    }
-    .studio-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: flex-start;
-    }
-
-    .studio-item {
-        flex: 1 0 300px;
-        margin: 10px;
-        padding: 20px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        background-color: #f9f9f9;
-    }
-
-    .custom-element {
-        width: 350px;
-        height: 220px;
-        padding: 15px 10px 20px 10px;
-        margin-bottom: 30px;
-        border: 2px dashed red;
-        background-color: green;
-        
-    }
-    
-    .container {
-        display: flex;
-      }
-      
-      .custom-element {
-        display: flex;
-      }
-      
-      .footer_main {
-        display: flex;
-      }
-      
-      .header_main {
-        display: flex;
-      }
-      .container {
-        display: flex;
-      }
-      
-      
-body {
-  font-family: 'Roboto', sans-serif;
-}
-    
-
 .hero-title{
 font-family: var(--font-family);
 font-weight: 900;
@@ -179,61 +97,13 @@ color: #212121;
   text-align: center;
   color: #212121;
 }
-.designer{
+.position{
 font-family: var(--font-family);
 font-weight: 400;
 font-size: 16px;
 letter-spacing: 0.03em;
 text-align: center;
 color: #757575;
-}
-.employee{
-font-family: var(--font-family);
-font-weight: 500;
-font-size: 16px;
-letter-spacing: 0.03em;
-text-align: center;
-color: #212121;
-}
-.developer{
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 16px;
-  letter-spacing: 0.03em;
-  text-align: center;
-  color: #757575;
-}
-.employee{
-  font-family: var(--font-family);
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 0.03em;
-  text-align: center;
-  color: #212121;
-}
-.marketing{
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 16px;
-  letter-spacing: 0.03em;
-  text-align: center;
-  color: #757575;
-}
-.employee{
-  font-family: var(--font-family);
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 0.03em;
-  text-align: center;
-  color: #212121;
-}
-.ui-designer{
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 16px;
-  letter-spacing: 0.03em;
-  text-align: center;
-  color: #757575;
 }
 .address{
   font-family: var(--font-family);
@@ -271,52 +141,12 @@ color: #212121;
 .main-list-item {
   font-family:  "Roboto", Times, serif;
 }
-.project-description {
+.employee{
+  font-family:  "Roboto", Times, serif;
+}
+.position{
   font-family:  "Raleway", Times, serif;
   color: rgb(88, 88, 88);
-}
-.main-list-item {
-  font-family:  "Roboto", Times, serif;
-}
-.project-description {
-  font-family:  "Raleway", Times, serif;
-  color: rgb(88, 88, 88);
-  
- }
-.main-list-item {
-  font-family:  "Roboto", Times, serif;
-}
-.project-description {
-  font-family:  "Raleway", Times, serif;
-  color: rgb(88, 88, 88);
-}
-.employee{
-  font-family:  "Roboto", Times, serif;
-}
-.designer{
-  font-family:  "Raleway", Times, serif;
-  color: rgb(114, 114, 114);
-}
-.employee{
-  font-family:  "Roboto", Times, serif;
-}
-.developer{
-  font-family:  "Raleway", Times, serif;
-  color: rgb(114, 114, 114);
-}
-.employee{
-  font-family:  "Roboto", Times, serif;
-}
-.marketing{
-  font-family:  "Raleway", Times, serif;
-  color: rgb(114, 114, 114);
-}
-.employee{
-  font-family:  "Roboto", Times, serif;
-}
-.ui-designer{
-  font-family:  "Raleway", Times, serif;
-  color: rgb(114, 114, 114);
 }
 .hero-title{
   font-family:  "Roboto", Times, serif;
