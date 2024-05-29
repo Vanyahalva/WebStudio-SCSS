@@ -245,3 +245,14 @@ color: #757575;
 .flex {
   display: flex;
   }
+  .overley{
+    width: 1185px;
+    height: 400px;
+    background-color: #2F303A;
+    background-size: cover;
+    background-position: center;
+  
+  }
+  .hero-title{
+    color: #FFFFFF;
+  }
