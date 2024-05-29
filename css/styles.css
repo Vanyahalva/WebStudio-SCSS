@@ -28,6 +28,15 @@
       outline:2px dashed #ff0000;
       margin: 0 auto;
     }
+    footer {
+      padding-top: 60px;
+      padding-bottom: 60px;
+  }
+  section {
+      padding-top: 94px;
+      padding-bottom: 94px;
+  }
+  
     .header{
       padding-top: 24px;
       padding-bottom: 25px;
@@ -211,5 +220,28 @@ color: #757575;
 }
 .section{
   padding-top: 20px;   
-    padding-bottom: 20px;
+    padding-bottom: 200px;
 }
+.header-nav{
+  display: flex;
+  gap: 50px;
+}
+.header-nav-list{
+  display: flex;
+  gap: 50px;
+}
+.header-contacts{
+  display: flex;
+  gap: 50px;
+}
+.nav-list{
+  display: flex;
+  gap: 30px;
+}
+.our-team{
+  display: flex;
+  gap: 30px;
+}
+.flex {
+  display: flex;
+  }
