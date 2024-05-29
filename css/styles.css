@@ -22,6 +22,16 @@
     font-family: "Roboto", sans-serif;
     font-size:14px;
     }
+    .container{
+      width: 1200px;
+      padding: 0 15px;
+      outline:2px dashed #ff0000;
+      margin: 0 auto;
+    }
+    .header{
+      padding-top: 24px;
+      padding-bottom: 25px;
+    }
     h1 {
     font-weight: 900;
     }
@@ -198,4 +208,8 @@ color: #757575;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
+}
+.section{
+  padding-top: 20px;   
+    padding-bottom: 20px;
 }
