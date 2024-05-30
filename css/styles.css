@@ -22,6 +22,18 @@
     font-family: "Roboto", sans-serif;
     font-size:14px;
     }
+    .visually-hidden{
+      position: absolute;
+      white-space: nowrap;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      border: 0;
+      padding: 0;
+      clip: rect(0 0 0 0);
+      clip-path: inset(50%);
+      margin: -1px;
+    }
     .container{
       width: 1200px;
       padding: 0 15px;
@@ -245,14 +257,30 @@ color: #757575;
 .flex {
   display: flex;
   }
-  .overley{
-    width: 1185px;
-    height: 400px;
+  .section-index{
+    padding-top: 200px;
     background-color: #2F303A;
-    background-size: cover;
-    background-position: center;
-  
+    text-align:center;
   }
   .hero-title{
     color: #FFFFFF;
   }
+  .footer{
+    padding-top: 50px;
+    background-color: #2F303A;
+    text-align:center;
+  }
+  .footer-adress{
+    color: #FFFFFF;
+  }
+  .link-footer-contacts{
+    color: #FFFFFF;
+  }
+.header-contacts{
+  margin-left: auto;
+}
+.footer-port{
+  padding-top: 50px;
+    background-color: #2F303A;
+    text-align:center;
+}
