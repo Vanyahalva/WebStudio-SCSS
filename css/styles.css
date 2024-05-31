@@ -261,9 +261,11 @@ color: #757575;
     padding-top: 200px;
     background-color: #2F303A;
     text-align:center;
+    padding-bottom: 200px;
   }
   .hero-title{
     color: #FFFFFF;
+    margin-bottom: 50px;
   }
   .footer{
     padding-top: 50px;
@@ -279,8 +281,54 @@ color: #757575;
 .header-contacts{
   margin-left: auto;
 }
-.footer-port{
-  padding-top: 50px;
-    background-color: #2F303A;
-    text-align:center;
+.hero-btn{
+  border-radius: 4px;
+fill: #2196f3;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 187%;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: #fff;
+  border-radius: 4px;
+  width: 216px;
+  height: 50px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #2196f3;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 187%;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: #fff;
+}
+.what-we-do{
+  margin-bottom: 50px;
+}
+.attention-to-detail{
+  margin-bottom: 10px;
+}
+.punctuality{
+  margin-bottom: 10px;
+}
+.planning{
+  margin-bottom: 10px;
+}
+.modern-technology{
+  margin-bottom: 10px;
+}
+.team{
+  margin-bottom: 45px;
+}
+.employee{
+  margin-top: 30px;
+}
+.position{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.image{
+  margin-bottom: 0px;
 }
