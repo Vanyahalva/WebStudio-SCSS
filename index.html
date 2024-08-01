@@ -17,6 +17,7 @@
 </head>
 
 <body>
+  
   <header class="header">
     <div class="container flex">
       <nav class="header-nav">
@@ -47,9 +48,7 @@
     <section class="section-hero">
       <div class="container">
         <h1 class="hero-title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
-
-        <img class="service" src="./images/main/bg.png">
-        <img class="text" src="./images/main/Замовити послугу.png">
+        <button  class="order-button" data-modal-open >Замовити послугу</button>
       </div>
     </section>
     <section>
@@ -335,5 +334,53 @@
     </div>
   </footer>
 </body>
-
+  <div class="backdrop is-hidden"  data-modal>
+    <svg class="modal-list_icon-btn" weight="18px" height="18px">
+      <use href="./images/symbol-defs.svg#icon-close-black"></use>
+    </svg>
+  <p class="modal-text">Залиште свої дані, ми вам передзвонимо</p>
+  <form class="modal-form">
+    <div class="modal-field">
+      <label class="modal-label">
+        <svg class="modal-list_icon" weight="18px" height="18px">
+          <use href="./images/symbol-defs.svg#icon-person-black"></use>
+        </svg>
+        Ім'я<input type="text" class="modal-input" />
+      </label>
+    </div>
+    <div class="modal-field">
+      <label class="modal-label">
+        <svg class="modal-list_icon" weight="18px" height="18px">
+          <use href="./images/symbol-defs.svg#icon-phone-black"></use>
+        </svg>
+        телефон<input type="tel" class="modal-input"
+      /></label>
+    </div>
+    <div class="modal-field">
+      <label class="modal-label">
+        <svg class="modal-list_icon" weight="18px" height="18px">
+          <use href="./images/symbol-defs.svg#icon-email-black"></use>
+        </svg>
+        Пошта<input type="email" class="modal-input"
+      /></label>
+    </div>
+    <label class="modal-label"
+      >Коментар<textarea
+        class="modal-textarea"
+        placeholder="Введіть текст"
+      ></textarea>
+    </label>
+    <label class="policy-label"
+      ><input type="checkbox" class="modal-checkbox" /><span
+        class="policy-span"
+        >Погоджуюся з розсилкою та приймаю
+        <a href="./" class="policy-link"> Умови договору</a></span
+      ></label
+    >
+    <button type="submit" class="modal-btn">Відправити</button>
+   <button class="close-btn" data-modal-close>X</button>
+  </form>
+</div>
+</div>
+<script src="./JS/modle.js"></script>
 </html>
