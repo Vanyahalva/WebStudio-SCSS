@@ -70,22 +70,26 @@ section {
   letter-spacing: 0.03em;
   color: #000000;
 }
-.header-nav-link.curent::after{
-content: "";
-background-color:#2196F3 ;
-height: 4px;
-width: 100%;
-border-radius: 2px;
-display: block;
-margin-top: 28px;
-position: absolute;
+
+.header-nav-link.curent::after {
+  content: "";
+  background-color: #2196F3;
+  height: 4px;
+  width: 100%;
+  border-radius: 2px;
+  display: block;
+  margin-top: 28px;
+  position: absolute;
 }
-.header-nav-link.curent{
+
+.header-nav-link.curent {
   color: #2196F3;
 }
-.header-nav-link{
+
+.header-nav-link {
   position: relative;
 }
+
 .logo-designe {
   color: #2196F3;
 }
@@ -534,6 +538,7 @@ h2 {
 .our-team>li {
   box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
 }
+
 .modal-text {
   font-family: var(--font-family);
   font-weight: 700;
@@ -542,6 +547,7 @@ h2 {
   text-align: center;
   color: #212121;
 }
+
 .backdrop {
   position: fixed;
   top: 0;
@@ -558,7 +564,7 @@ h2 {
 .backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
-  
+
 }
 
 .no-scroll {
@@ -586,16 +592,19 @@ h2 {
   bottom: 11px;
   width: 18px;
 }
+
 .modal-label {
   display: flex;
   flex-direction: column;
   gap: 4px;
   width: 100%;
 }
+
 .modal-field {
   position: relative;
   margin-bottom: 10px;
 }
+
 .modal-input {
   padding-top: 12px;
   padding-bottom: 12px;
@@ -604,18 +613,23 @@ h2 {
   outline: none;
   padding-left: 42px;
 }
+
 .modal-textarea {
   resize: none;
 }
+
 .modal-field:focus-within .modal-list_icon {
   fill: #2196f3;
 }
+
 .modal-field:focus-within .modal-input {
   border: 1px solid #2196f3;
 }
+
 .modal:hover .modal-list_icon-btn {
   fill: #188ce8;
 }
+
 .close-btn {
   top: 8px;
   right: 8px;
@@ -630,6 +644,7 @@ h2 {
   justify-content: center;
   fill: #000000;
 }
+
 .modal-textarea {
   padding: 12px;
   height: 120px;
@@ -637,22 +652,27 @@ h2 {
   border-radius: 4px;
   outline: none;
 }
+
 .modal-field:focus-within .modal-textarea {
   border: 1px solid #2196f3;
 }
+
 .modal-checkbox {
   margin-top: 25px;
 }
+
 .policy-span {
   margin-top: 20px;
   margin-left: 7px;
   width: 400px;
   height: 24px;
 }
+
 .policy-link {
   color: #2196f3;
   text-decoration: underline;
 }
+
 .modal-btn {
   margin-right: auto;
   margin-left: auto;
@@ -676,8 +696,9 @@ h2 {
   cursor: pointer;
   border: 0;
 }
+
 .order-button {
-  background-color: #2196F3; 
+  background-color: #2196F3;
   color: white;
   border: none;
   border-radius: 5px;
@@ -685,4 +706,30 @@ h2 {
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+
+  border: 2px dashed red;
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay {
+  width: 100%;
+  height: 82%;
+  background-color: #2196F3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(125%);
+  transition: transform 1000ms ease;
+  opacity: 0.9;
+}
+
+.box:hover .overlay {
+  transform: translateY(0%);
+
 }
