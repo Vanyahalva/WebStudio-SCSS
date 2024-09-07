@@ -1,0 +1,45 @@
+.portfolio-btn {
+    padding: 6px 22px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-heading-color);
+    background-color: var(--bg-btn-color);
+  }
+  
+  .portfolio-btn:hover {
+    color: var(--accent-color);
+    background-color: var(--hover-color);
+  }
+  .projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .project-header {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--main-heading-color);
+  }
+  
+  .portfolio-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+  }
+  .btns-list {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    margin-bottom: 50px;
+  }

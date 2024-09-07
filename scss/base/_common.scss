@@ -2,3 +2,47 @@ body {
     font-family: "Roboto", sans-serif;
     font-size: 14px;
   }
+  .visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+  }
+  .container {
+    width: 1200px;
+    padding: 0 15px;
+    outline: 2px dashed #ff0000;
+    margin: 0 auto;
+  }
+  .section {
+    padding-top: 20px;
+    padding-bottom: 200px;
+  }
+  
+  
+  
+  .nav-list {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .our-team {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  
