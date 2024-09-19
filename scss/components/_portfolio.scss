@@ -43,3 +43,122 @@
     justify-content: center;
     margin-bottom: 50px;
   }
+  .projects-list > li {
+    width: calc((100% - 60px) / 3);
+    }
+    .modal {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      min-width: 528px;
+      min-height: 581px;
+      padding: 40px;
+      border-radius: 4px;
+      background-color: #fff;
+      transform: translate(-50%, -50%) rotate(360deg) scale(1);
+    
+      transition: transform 300ms,color 300ms,opacity 300ms cubic-bezier(0.4, 0, 0.2, 1) 300ms, transform 300ms;
+      z-index: 999;
+      }
+    
+      .backdrop.is-hidden .modal {
+        transform: translate(-50%, -50%) rotate(0deg) scale(0.1);
+      }
+      .modal-text {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 20px;
+        letter-spacing: 0.03em;
+        text-align: center;
+        color: #212121;
+      }
+
+    .modal-list_icon {
+      position: absolute;
+      left: 12px;
+      bottom: 11px;
+      width: 18px;
+      
+    }
+    
+    .modal-label {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      width: 100%;
+      
+    }
+    
+    .modal-field {
+      position: relative;
+      margin-bottom: 10px;
+      
+    }
+    
+    .modal-input {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      border: 1px solid rgba(33, 33, 33, 0.2);
+      border-radius: 4px;
+      outline: none;
+      padding-left: 42px;
+    }
+    
+    .modal-textarea {
+      resize: none;
+    }
+    
+    .modal-field:focus-within .modal-list_icon {
+      fill: #2196f3;
+    }
+    
+    .modal-field:focus-within .modal-input {
+      border: 1px solid #2196f3;
+    }
+    
+    .modal:hover .modal-list_icon-btn {
+      fill: #188ce8;
+    }
+    .modal-textarea {
+      padding: 12px;
+      height: 120px;
+      border: 1px solid rgba(33, 33, 33, 0.2);
+      border-radius: 4px;
+      outline: none;
+      
+    }
+    
+    .modal-field:focus-within .modal-textarea {
+      border: 1px solid #2196f3;
+      
+    }
+    
+    .modal-checkbox {
+      margin-top: 25px;
+      
+    }
+    .modal-btn {
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 30px;
+      padding: 10px 52px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #188ce8;
+      width: 200px;
+      height: 50px;
+      font-family: var(--font-family);
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 187%;
+      letter-spacing: 0.06em;
+      text-align: center;
+      color: #fff;
+      box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+      border-radius: 4px;
+      cursor: pointer;
+      border: 0;
+      
+    }
+    
